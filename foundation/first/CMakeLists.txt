@@ -1,0 +1,5 @@
+add_executable(helloworld helloworld.c)
+add_executable(helloworld2 helloworld2.c)
+add_executable(buttons buttons.c)
+add_executable(exercise2-1 exercise2-1.c)
+add_executable(exercise2-2 exercise2-2.c)
