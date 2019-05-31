@@ -11,5 +11,9 @@ pkg_check_modules(GTK3 REQUIRED "gtk+-3.0")
 
 include_directories(${GTK3_INCLUDE_DIRS})
 link_libraries(${GTK3_LIBRARIES})
-add_link_options("-Wl,--subsystem,windows")
+
+if(WINDOWS)
+  add_link_options("-Wl,--subsystem,windows")
+endif()
+
 add_subdirectory(foundation)
