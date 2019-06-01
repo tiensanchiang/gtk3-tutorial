@@ -14,6 +14,8 @@ shift
 
 if [ $command == "m" ]; then
     cmake -H. -Btarget -G "MSYS Makefiles" $*
+elif [ $command == "mu" ]; then
+    cmake -H. -Btarget -G "Unix Makefiles" $*
 elif [ $command == "b" ]; then
     cmake --build ./target $*
 else
