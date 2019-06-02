@@ -1,2 +1,7 @@
 add_executable(stockitems stockitems.c)
 add_executable(togglebuttons togglebuttons.c)
+add_executable(checkbuttons checkbuttons.c)
+add_executable(radiobuttons radiobuttons.c)
+add_executable(entries entries.c)
+add_executable(spinbuttons spinbuttons.c)
+
