@@ -4,4 +4,6 @@ add_executable(checkbuttons checkbuttons.c)
 add_executable(radiobuttons radiobuttons.c)
 add_executable(entries entries.c)
 add_executable(spinbuttons spinbuttons.c)
-
+add_executable(scales scales.c)
+add_executable(colorbuttons colorbuttons.c)
+add_executable(filechooserbuttons filechooserbuttons.c)
