@@ -2,3 +2,4 @@
 add_subdirectory(first)
 add_subdirectory(container)
 add_subdirectory(widgets)
+add_subdirectory(dialogs)
